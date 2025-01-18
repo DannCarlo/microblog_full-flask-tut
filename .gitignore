@@ -9,6 +9,9 @@ __pycache__/
 # db
 *.db
 
+# logs folder
+logs/
+
 # Distribution / packaging
 .Python
 build/
