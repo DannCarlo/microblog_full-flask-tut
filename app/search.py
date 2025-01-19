@@ -21,5 +21,13 @@ def query_index(index, query, page, per_page):
         query={'multi_match': {'query': query, 'fields': ['*']}},
         from_=(page - 1) * per_page,
         size=per_page)
-    ids = [int(hit['_id']) for hit in search['hits']['hits']]
-    return ids, search['hits']['total']['value']
+    ids_data = dict()
+    for hit in search['hits']['hits']:
+        if hit["_score"] in ids_data:
+            ids_data[hit["_score"]].append(hit["_id"])
+        else:
+            ids_data[hit["_score"]] = [hit["_id"]]
+
+    # ids = [int(hit['_id']) for hit in search['hits']['hits']]
+    # scores = [int(hit['_scores']) for hit in search['hits']['hits']]
+    return ids_data, search['hits']['total']['value']

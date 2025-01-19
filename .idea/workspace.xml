@@ -5,11 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b339519e-1df0-4834-b5fc-4807b9a6994a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/mixins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/user/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/messages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/send_message.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/user_popup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/auth/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/auth/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/auth/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/auth/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/main/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/main/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/_post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/translations/es/LC_MESSAGES/messages.po" beforeDir="false" afterPath="$PROJECT_DIR$/app/translations/es/LC_MESSAGES/messages.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microblog.py" beforeDir="false" afterPath="$PROJECT_DIR$/microblog.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +59,7 @@
     "Python.__init__.executor": "Run",
     "Python.cli.executor": "Run",
     "Python.microblog.executor": "Run",
+    "Python.user.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -53,11 +69,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dann\OneDrive\Documents\Programming\Python\Tutorials\microblog\app\models" />
+      <recent name="C:\Users\Dann\OneDrive\Documents\Programming\Python\Tutorials\microblog\app\models\user" />
       <recent name="C:\Users\Dann\OneDrive\Documents\Programming\Python\Tutorials\microblog\app\templates\auth" />
       <recent name="C:\Users\Dann\OneDrive\Documents\Programming\Python\Tutorials\microblog\app\auth" />
       <recent name="C:\Users\Dann\OneDrive\Documents\Programming\Python\Tutorials\microblog\app\errors" />
-      <recent name="C:\Users\Dann\OneDrive\Documents\Programming\Python\Tutorials\microblog\app\templates\errors" />
-      <recent name="C:\Users\Dann\OneDrive\Documents\Programming\Python\Tutorials\microblog\app\static" />
     </key>
   </component>
   <component name="SharedIndexes">

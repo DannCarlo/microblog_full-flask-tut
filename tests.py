@@ -2,7 +2,7 @@
 from datetime import datetime, timezone, timedelta
 import unittest
 from app import create_app, db
-from app.models import User, Post
+from app.models.user import User, Post
 from config import Config
 
 
